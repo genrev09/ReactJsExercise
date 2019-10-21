@@ -10,7 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <button > Hello World! </button>
+        <button onClick={
+          ()=> {alert('now you know how to handle onclick event');}
+        }> Hello World! </button>
         <p>Number: 0</p>
         <a
           className="App-link"
