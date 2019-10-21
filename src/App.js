@@ -17,7 +17,7 @@ class App extends React.Component {
           </p>
           <button onClick={
             ()=> {alert('now you know how to handle onclick event');
-            this.setState({Number: this.state.Number += 1});
+            this.setState({Number: this.state.Number += 2});
           }
           }> Hello World! </button>
           <p>Number: {this.state.Number}</p>
